@@ -5,7 +5,7 @@ const Todo = ({todo, onClickDelete, onClickComplete}) => {
         <>
             <span>This todo is done</span>
             <span>
-              <button onClick={onClickDelete(todo)}> Delete </button>
+              <button onClick={onClickDelete}> Delete </button>
             </span>
         </>
     )
@@ -16,8 +16,8 @@ const Todo = ({todo, onClickDelete, onClickComplete}) => {
               This todo is not done
             </span>
             <span>
-              <button onClick={onClickDelete(todo)}> Delete </button>
-              <button onClick={onClickComplete(todo)}> Set as done </button>
+              <button onClick={onClickDelete}> Delete </button>
+              <button onClick={onClickComplete}> Set as done </button>
             </span>
         </>
     )
