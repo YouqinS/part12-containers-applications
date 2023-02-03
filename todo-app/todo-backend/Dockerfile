@@ -6,7 +6,7 @@ COPY --chown=node:node . .
 
 RUN npm ci
 
-ENV DEBUG=practice-docker-image:*
+ENV DEBUG=todo-backend:*
 
 USER node
 
