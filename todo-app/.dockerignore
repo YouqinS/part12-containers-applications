@@ -1,0 +1,6 @@
+.dockerignore
+.gitignore
+node_modules
+Dockerfile
+todo-backend/redis_data/
+todo-backend/mongo_data/
